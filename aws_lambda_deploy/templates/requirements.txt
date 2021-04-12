@@ -1,0 +1,9 @@
+certifi==2019.9.11
+chardet==3.0.4
+graphviz==0.8.4
+idna==2.8
+mxnet==1.5.0
+numpy==1.17.2
+requests==2.22.0
+urllib3==1.25.6
+onnx==1.6.0
