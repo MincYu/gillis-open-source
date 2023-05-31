@@ -1,6 +1,8 @@
 ## Gillis
-A serverless-based ML model serving framework with automatic model partitioning
+A serverless-based ML model serving framework with automatic model partitioning.
 
+Our paper: 
+Minchen Yu, Zhifeng Jiang, Hok Chun Ng, Wei Wang, Ruichuan Chen, and Bo Li, ''[Gillis: Serving Large Neural Networks in Serverless Functions with Automatic Model Partitioning](https://mincyu.github.io/papers/gillis-icdcs21.pdf),'' in the Proceedings of the 41st IEEE International Conference on Distributed Computing Systems (ICDCS'21), Virtual Conference, July 2021. (**Best Paper Runner Up**) 
 
 ### 1. Intro
 For a large DNN model, Gillis can divide it into multiple partitions using two partitioning algorithms, latency-optimal and SLO-aware, then automatically deploy model partitions on serverless platforms, including AWS Lambda, Google Cloud Functions and KNIX.
